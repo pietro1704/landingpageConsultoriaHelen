@@ -1,19 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="parametro">
 
+<!-- comentário: definição de estilo do html, via CSS -->
 <style>
     p{font-family: Arial, Helvetica, sans-serif;, font-size: 17;}
 </style>
+
+<!-- configs gerais do html -->
+<!-- tags vão aqui -->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- titulo do site -->
     <title>tituloAbaNavegador</title>
+
+    <!-- URL base -->
+    <base href = "https://helenczarnieski.netlify.app/">
 </head>
+
+<!-- body -->
 <body>
-    <title>tituloAbaNavegador</title>
+
+    <!-- div ±= mark, separar porcoes da pagina -->
+    <div id = "menu" align = "middle" >
+        <a href = "/">HOME</a> | 
+        <a href = "/#top">TOP</a> | 
+        <a href = "/#bottom">BOTTOM</a>
+     </div>
+
+     <!-- TAG para ir para URL pelo # -->
+     <h1>link TOP <a name = "top"></a></h1>
+
     <h1>header 1</h1>
-    <p>Oi eu sou a helen</p>
-    <p>testeCommitGit</p>
+    line break <br />
+    <!-- span = trocar partes do texto -->
+    <p>Oi eu sou a helen <span style = "color:red">div tag</span></p>
+
+    <h1>This is <i>italic</i> heading</h1>
+    <p>This is <u>underlined</u> paragraph</p>
+
+    <!-- parametro opcional dentro da chave de abertura -->
+    <p align = "right">This is right aligned</p> 
+
+    <!-- title = dica ao colocar o mouse -->
+    <h3 title = "Hello HTML!">Titled Heading Tag Example</h3>
+
+    <!-- linha horizontal -->
+    <hr />
+    <center>
+        <p>testeCommitGit</p>
+    </center>
+
+    <!-- LINK -->
+    <a href = "/"> HOME </a>Tutorials Point</a>
+
+     <!-- TAG para ir para URL pelo # -->
+     <h1>link BOTTOM <a name = "bottom"></a></h1>
+
+     <p>DOWNLOAD = URL COMPLETA <a href="https://helenczarnieski.netlify.app/download.pdf">URLDownload</a></p>
 </body>
+
+<!-- fim do documento -->
 </html>

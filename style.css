@@ -1,0 +1,23 @@
+/* tudo termina com ; */
+/* selector {propr: valor;} */
+/* h1 {
+    color: red;
+} */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    margin: 16 auto;
+    width: 80%;
+    box-sizing: border-box;
+}
+
+.paragrafo {
+    color: brown;
+}
+
+#segundoh1 {
+    color: blue;
+}
